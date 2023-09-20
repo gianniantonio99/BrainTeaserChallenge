@@ -18,7 +18,7 @@ Test your knowlege on a wide range of topics by answering a series of fun and ch
 
 # Usage
 * Answer each question by typing the corresponding letter and pressing Enter.
-* Keep an eye on the contdown timer to complete questions within the limit.
+* You have 15 seconds to answer each question. If you have answered a question after 15 seconds, you will score 0 for that round.
 * Play multiple rounds and aim for a high total score.
 
 # Contributing 
