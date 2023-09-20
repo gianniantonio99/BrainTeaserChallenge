@@ -72,6 +72,7 @@ questions = [
 def display_welcome_message():
     print(f"Welcome to {quiz_game_name}!")
     print("You will have 15 seconds to answer each question.")
+    print("You will have to get at least 3 questions correct to pass the quiz.")
     print("Type the letter corresponding to your answer and press Enter.")
     print("Press Enter to start the quiz...")
 
@@ -144,7 +145,7 @@ def main():
           print(f"Question {round_num} Score: {round_score}")
           total_score += round_score
 
-        print("Quiz completed: Your total score:", total_score)
+        print("\nQuiz completed: Your total score:", total_score)
         if total_score < 3:
             print("You've failed the quiz. Better look next time!")
 
