@@ -145,7 +145,7 @@ def main():
           total_score += round_score
 
         print("Quiz completed: Your total score:", total_score)
-        if total_score < 5:
+        if total_score < 3:
             print("You've failed the quiz. Better look next time!")
 
         if not replay_quiz():
