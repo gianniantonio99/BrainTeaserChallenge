@@ -118,7 +118,7 @@ def play_round(questions, round_num):
     for i, question in enumerate(questions, start=1):
         if i == 1:
             print("\n")
-            print(f"Round {round_num}")
+            print(f"Question {round_num}")
             print("\n")
 
     if ask_question_with_timer(question, time_limit=15):
@@ -141,7 +141,7 @@ def main():
 
         for round_num in range(1, num_rounds + 1):
           round_score = play_round(questions, round_num)
-          print(f"Round {round_num} Score: {round_score}")
+          print(f"Question {round_num} Score: {round_score}")
           total_score += round_score
 
         print("Quiz completed: Your total score:", total_score)
